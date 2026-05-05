@@ -1,0 +1,21 @@
+Company,TypeName,Cpu_brand,Gpu_brand,OS_Category,Inches,Ram,Weight,Touchscreen,IPS Technology,X_res,Y_res,PPI,SSD,HDD,Flash_Storage,Hybrid
+Dell,Ultrabook,Intel Core i5,Intel,Windows,13.3,8,1.3,0,1,1920,1080,165.63,256,0,0,0
+HP,Notebook,AMD Ryzen 5,AMD,Windows,15.6,16,2,0,1,1920,1080,141.21,512,0,0,0
+Apple,Ultrabook,Apple M1,Apple,Mac,13.3,8,1.4,0,1,2560,1600,226.98,256,0,0,0
+Lenovo,Gaming,Intel Core i7,Nvidia,Windows,17.3,16,2.7,0,1,1920,1080,127.34,512,1000,0,0
+Acer,Notebook,Intel Core i3,Intel,Windows,14,4,1.9,0,0,1366,768,112.11,128,500,0,0
+MSI,Gaming,Intel Core i9,Nvidia,Windows,15.6,32,2.6,0,1,3840,2160,282.42,1024,0,0,0
+Asus,Ultrabook,AMD Ryzen 7,AMD,Windows,13.3,8,1.2,1,1,1920,1080,165.63,256,0,0,0
+Toshiba,Notebook,Intel Core i5,Intel,Windows,15.6,8,2.1,0,0,1366,768,100.45,128,1000,0,0
+Dell,Gaming,Intel Core i7,Nvidia,Windows,15.6,16,2.3,1,1,1920,1080,141.21,512,0,0,0
+HP,2 in 1,Intel Core i5,Intel,Windows,14,8,1.5,1,1,1920,1080,157.35,256,0,0,0
+Apple,Ultrabook,Apple M2,Apple,Mac,14,16,1.6,0,1,3024,1964,254.73,512,0,0,0
+Lenovo,Notebook,AMD Ryzen 3,AMD,Windows,15.6,4,2,0,0,1366,768,100.45,128,500,0,0
+Asus,Ultrabook,Intel Core i5,Intel,Windows,13.3,8,1.3,1,1,1920,1080,165.63,512,0,0,0
+MSI,Gaming,Intel Core i7,Nvidia,Windows,17.3,16,3,0,1,2560,1440,170.69,1024,0,0,0
+Dell,Notebook,Intel Core i3,Intel,Windows,15.6,4,2.2,0,0,1366,768,100.45,0,1000,0,0
+Acer,Ultrabook,AMD Ryzen 5,AMD,Linux,14,8,1.6,0,1,1920,1080,157.35,256,0,0,0
+Lenovo,2 in 1,Intel Core i5,Intel,Windows,13.3,8,1.4,1,1,1920,1080,165.63,256,0,0,0
+HP,Ultrabook,AMD Ryzen 7,AMD,Windows,13.3,16,1.3,0,1,1920,1080,165.63,512,0,0,0
+Apple,Ultrabook,Apple M3,Apple,Mac,15,16,1.5,0,1,2880,1864,226.43,512,0,0,0
+Asus,Notebook,Intel Core i3,Intel,Windows,14,4,1.9,0,0,1366,768,112.11,128,500,0,0
