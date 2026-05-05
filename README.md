@@ -2,10 +2,6 @@
 
 > A production-grade Machine Learning pipeline that predicts laptop prices from hardware and software specifications, enabling data-driven competitive pricing for retail and e-commerce businesses.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.x-orange?style=flat-square&logo=scikit-learn)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter)
-
 ---
 
 ## 📌 Problem Statement
