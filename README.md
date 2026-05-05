@@ -5,8 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.x-orange?style=flat-square&logo=scikit-learn)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 
 ---
 
@@ -238,65 +236,6 @@ Capstone_project_ML/
 
 ---
 
-## ⚙️ Installation & Setup
-
-### Prerequisites
-
-- Python 3.9 or higher
-- pip package manager
-- Jupyter Notebook or Google Colab access
-
-### Local Setup
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/LaptopPriceIQ.git
-cd LaptopPriceIQ
-
-# 2. Create a virtual environment
-python -m venv venv
-source venv/bin/activate        # macOS/Linux
-venv\Scripts\activate           # Windows
-
-# 3. Install dependencies
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-
-# 4. Launch Jupyter Notebook
-jupyter notebook ML_Project_LPP.ipynb
-```
-
-### Google Colab Setup
-
-```
-1. Upload ML_Project_LPP.ipynb to Google Colab
-2. Run Cell 6 to upload laptop.csv via the file picker
-3. Run all cells sequentially (Runtime → Run All)
-4. When prompted for new_laptops.csv, upload the inference file
-```
-
----
-
-## ▶️ Usage
-
-### Running the Full Pipeline
-
-Open `ML_Project_LPP.ipynb` and execute cells sequentially. The notebook is self-contained and walks through every stage with inline outputs.
-
-### Predicting Prices for New Laptops
-
-Prepare a CSV file with the following pre-engineered columns (matching `new_laptops.csv` format):
-
-```
-Company, TypeName, Cpu_brand, Gpu_brand, OS_Category,
-Inches, Ram, Weight, Touchscreen, IPS Technology,
-X_res, Y_res, PPI, SSD, HDD, Flash_Storage, Hybrid
-```
-
-**Example input row:**
-
-| Company | TypeName | Cpu_brand | Gpu_brand | OS_Category | Inches | Ram | Weight | Touchscreen | IPS Technology | X_res | Y_res | PPI | SSD | HDD | Flash_Storage | Hybrid |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Dell | Ultrabook | Intel Core i5 | Intel | Windows | 13.3 | 8 | 1.3 | 0 | 1 | 1920 | 1080 | 165.63 | 256 | 0 | 0 | 0 |
 
 **Expected output:**
 
@@ -371,26 +310,6 @@ Apple laptops command significantly higher prices than equivalent-spec Windows m
 - **SHAP Values** — Replace static feature importance with SHAP (SHapley Additive exPlanations) for per-prediction explainability, particularly useful for justifying pricing decisions to stakeholders
 - **Cross-Region Pricing** — Extend the model to predict prices across different regional markets (US, EU, Asia) by incorporating currency-normalized price targets
 - **Automated Retraining Pipeline** — Build a CI/CD-style workflow that retrains and re-evaluates the model whenever new data is available, with automatic promotion if R² improves
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome. To contribute:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes with descriptive messages: `git commit -m "Add SHAP interpretability module"`
-4. Push to your fork: `git push origin feature/your-feature-name`
-5. Open a Pull Request with a clear description of the change and its motivation
-
-Please ensure any new code is accompanied by comments and that notebook cells run top-to-bottom without errors.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
